@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\genetic\\pickinggeneticsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\genetic\\pickinggeneticsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\visualizer\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|solutionrelative:visualizer\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\visualizer\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|solutionrelative:visualizer\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\genetic\\geneticoperators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\genetic\\geneticoperators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\genetic\\localsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\genetic\\localsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\genetic\\geneticoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\genetic\\geneticoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\visualizer\\triprow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|solutionrelative:visualizer\\triprow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\visualizer\\trippalette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|solutionrelative:visualizer\\trippalette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\visualizer\\solverprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|solutionrelative:visualizer\\solverprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\visualizer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|solutionrelative:visualizer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\triproutebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\triproutebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\ordergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\ordergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\visualizer\\warehousedrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|solutionrelative:visualizer\\warehousedrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\pickingplanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\pickingplanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\genetic\\chromosome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\genetic\\chromosome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\genetic\\chromosomedecoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\genetic\\chromosomedecoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\pickingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\pickingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\pickingproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\pickingproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\pickingplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\pickingplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\engine\\picking\\distancematrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6392E5-E3D1-4069-A755-44897D8B6F2A}|Engine\\Engine.csproj|solutionrelative:engine\\picking\\distancematrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|c:\\users\\kacper\\desktop\\merge\\warehousepathing\\visualizer\\visualizer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A3AE913-7EBA-4AE3-A762-D1EEF4601890}|Visualizer\\Visualizer.csproj|solutionrelative:visualizer\\visualizer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocalSearch.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\Genetic\\LocalSearch.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\Genetic\\LocalSearch.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\Genetic\\LocalSearch.cs",
+              "RelativeToolTip": "Engine\\Picking\\Genetic\\LocalSearch.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T02:23:55.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SolverProgress.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\SolverProgress.cs",
+              "RelativeDocumentMoniker": "Visualizer\\SolverProgress.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\SolverProgress.cs",
+              "RelativeToolTip": "Visualizer\\SolverProgress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:56:43.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GeneticOptions.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\Genetic\\GeneticOptions.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\Genetic\\GeneticOptions.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\Genetic\\GeneticOptions.cs",
+              "RelativeToolTip": "Engine\\Picking\\Genetic\\GeneticOptions.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:47:50.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PickingGeneticSolver.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\Genetic\\PickingGeneticSolver.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\Genetic\\PickingGeneticSolver.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\Genetic\\PickingGeneticSolver.cs",
+              "RelativeToolTip": "Engine\\Picking\\Genetic\\PickingGeneticSolver.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA5wCsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:46:32.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Visualizer\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\MauiProgram.cs",
+              "RelativeToolTip": "Visualizer\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:22:39.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Visualizer\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\MainPage.xaml",
+              "RelativeToolTip": "Visualizer\\MainPage.xaml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwGMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-16T01:24:59.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Visualizer\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\MainPage.xaml.cs",
+              "RelativeToolTip": "Visualizer\\MainPage.xaml.cs",
+              "ViewState": "AgIAABEBAAAAAAAAAAAuwCcBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:23:19.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeneticOperators.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\Genetic\\GeneticOperators.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\Genetic\\GeneticOperators.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\Genetic\\GeneticOperators.cs",
+              "RelativeToolTip": "Engine\\Picking\\Genetic\\GeneticOperators.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAuwLYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:47:18.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TripRow.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\TripRow.cs",
+              "RelativeDocumentMoniker": "Visualizer\\TripRow.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\TripRow.cs",
+              "RelativeToolTip": "Visualizer\\TripRow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:57:05.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TripPalette.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\TripPalette.cs",
+              "RelativeDocumentMoniker": "Visualizer\\TripPalette.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\TripPalette.cs",
+              "RelativeToolTip": "Visualizer\\TripPalette.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:57:24.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\OrderGenerator.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\OrderGenerator.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\OrderGenerator.cs",
+              "RelativeToolTip": "Engine\\Picking\\OrderGenerator.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:57:41.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TripRouteBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\TripRouteBuilder.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\TripRouteBuilder.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\TripRouteBuilder.cs",
+              "RelativeToolTip": "Engine\\Picking\\TripRouteBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:58:02.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Chromosome.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\Genetic\\Chromosome.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\Genetic\\Chromosome.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\Genetic\\Chromosome.cs",
+              "RelativeToolTip": "Engine\\Picking\\Genetic\\Chromosome.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:47:35.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PickingPlanner.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\PickingPlanner.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\PickingPlanner.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\PickingPlanner.cs",
+              "RelativeToolTip": "Engine\\Picking\\PickingPlanner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:44:22.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WarehouseDrawable.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\WarehouseDrawable.cs",
+              "RelativeDocumentMoniker": "Visualizer\\WarehouseDrawable.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\WarehouseDrawable.cs",
+              "RelativeToolTip": "Visualizer\\WarehouseDrawable.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAwKsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:24:22.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChromosomeDecoder.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\Genetic\\ChromosomeDecoder.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\Genetic\\ChromosomeDecoder.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\Genetic\\ChromosomeDecoder.cs",
+              "RelativeToolTip": "Engine\\Picking\\Genetic\\ChromosomeDecoder.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwFkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:47:00.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PickingProblem.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\PickingProblem.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\PickingProblem.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\PickingProblem.cs",
+              "RelativeToolTip": "Engine\\Picking\\PickingProblem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:45:05.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PickingPlan.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\PickingPlan.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\PickingPlan.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\PickingPlan.cs",
+              "RelativeToolTip": "Engine\\Picking\\PickingPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:44:50.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DistanceMatrix.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\DistanceMatrix.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\DistanceMatrix.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\DistanceMatrix.cs",
+              "RelativeToolTip": "Engine\\Picking\\DistanceMatrix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:45:23.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PickingRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\PickingRequest.cs",
+              "RelativeDocumentMoniker": "Engine\\Picking\\PickingRequest.cs",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Engine\\Picking\\PickingRequest.cs",
+              "RelativeToolTip": "Engine\\Picking\\PickingRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T01:44:38.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Visualizer",
+              "DocumentMoniker": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\Visualizer.csproj",
+              "RelativeDocumentMoniker": "Visualizer\\Visualizer.csproj",
+              "ToolTip": "C:\\Users\\Kacper\\Desktop\\merge\\WarehousePathing\\Visualizer\\Visualizer.csproj",
+              "RelativeToolTip": "Visualizer\\Visualizer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-16T01:22:38.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

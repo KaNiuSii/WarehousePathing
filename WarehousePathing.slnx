@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Engine/Engine.csproj" />
+  <Project Path="Visualizer/Visualizer.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

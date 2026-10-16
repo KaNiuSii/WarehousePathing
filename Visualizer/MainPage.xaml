@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Visualizer.MainPage"
+             Title="Warehouse Visualizer">
+
+    <Grid ColumnDefinitions="*,360">
+
+        <GraphicsView x:Name="WarehouseView"
+                      Grid.Column="0"
+                      BackgroundColor="White"
+                      StartInteraction="OnWarehouseTouched" />
+
+        <ScrollView Grid.Column="1">
+            <VerticalStackLayout Padding="16" Spacing="10">
+
+                <!-- Magazyn -->
+                <Label Text="Magazyn" FontAttributes="Bold" />
+                <Picker x:Name="LayoutPicker" Title="Typ układu" />
+                <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto" ColumnSpacing="8">
+                    <Label Text="Szerokość (komórki)" FontSize="11" />
+                    <Label Grid.Column="1" Text="Wysokość (komórki)" FontSize="11" />
+                    <Entry x:Name="WidthEntry" Grid.Row="1" Text="160" Keyboard="Numeric" />
+                    <Entry x:Name="HeightEntry" Grid.Row="1" Grid.Column="1" Text="100" Keyboard="Numeric" />
+                </Grid>
+                <Entry x:Name="SeedEntry" Placeholder="Seed (puste = losowy)" Keyboard="Numeric" />
+                <Button x:Name="GenerateButton" Text="Generuj magazyn" Clicked="OnGenerateClicked" />
+                <Label x:Name="SummaryLabel" />
+
+                <BoxView HeightRequest="1" Color="LightGray" />
+
+                <!-- Zamówienie -->
+                <Label Text="Zamówienie" FontAttributes="Bold" />
+                <Label x:Name="TargetLabel" />
+                <Label Text="Kliknij ścieżkę, żeby ustawić target. Kliknij półkę, żeby zobaczyć towar."
+                       FontSize="11"
+                       TextColor="Gray" />
+                <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto" ColumnSpacing="8">
+                    <Label Text="Liczba pozycji" FontSize="11" />
+                    <Label Grid.Column="1" Text="Max szt. na pozycję" FontSize="11" />
+                    <Entry x:Name="LinesEntry" Grid.Row="1" Text="100" Keyboard="Numeric" />
+                    <Entry x:Name="MaxQuantityEntry" Grid.Row="1" Grid.Column="1" Text="30" Keyboard="Numeric" />
+                </Grid>
+                <Button x:Name="RandomOrderButton" Text="Losuj zamówienie" Clicked="OnRandomOrderClicked" />
+                <Label x:Name="OrderLabel" Text="Brak zamówienia" />
+
+                <BoxView HeightRequest="1" Color="LightGray" />
+
+                <!-- Optymalizacja -->
+                <Label Text="Optymalizacja (algorytm genetyczny)" FontAttributes="Bold" />
+                <Grid ColumnDefinitions="*,*,*" RowDefinitions="Auto,Auto" ColumnSpacing="8">
+                    <Label Text="Wózek (szt.)" FontSize="11" />
+                    <Label Grid.Column="1" Text="Pokolenia" FontSize="11" />
+                    <Label Grid.Column="2" Text="Opóźnienie (ms)" FontSize="11" />
+                    <Entry x:Name="CapacityEntry" Grid.Row="1" Text="60" Keyboard="Numeric" />
+                    <Entry x:Name="GenerationsEntry" Grid.Row="1" Grid.Column="1" Text="400" Keyboard="Numeric" />
+                    <Entry x:Name="DelayEntry" Grid.Row="1" Grid.Column="2" Text="15" Keyboard="Numeric" />
+                </Grid>
+                <HorizontalStackLayout Spacing="8">
+                    <Switch x:Name="AggressiveSwitch" Toggled="OnAggressiveToggled" />
+                    <Label Text="Agresywna optymalizacja (dłużej, krótsze trasy)"
+                           FontSize="13"
+                           VerticalOptions="Center" />
+                </HorizontalStackLayout>
+                <Button x:Name="RunButton" Text="Uruchom algorytm" Clicked="OnRunClicked" />
+                <Button x:Name="StopButton" Text="Zatrzymaj" IsVisible="False" Clicked="OnStopClicked" />
+                <ProgressBar x:Name="RunProgressBar" />
+                <Label x:Name="StatusLabel" />
+
+                <Label Text="Kursy (kliknij, żeby zobaczyć trasę)" FontAttributes="Bold" />
+                <CollectionView x:Name="TripsView"
+                                HeightRequest="200"
+                                SelectionMode="Single"
+                                SelectionChanged="OnTripSelected">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid ColumnDefinitions="14,*" ColumnSpacing="8" Padding="2">
+                                <BoxView Color="{Binding Color}" WidthRequest="14" HeightRequest="14" VerticalOptions="Center" />
+                                <Label Grid.Column="1" Text="{Binding Title}" FontSize="13" />
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <BoxView HeightRequest="1" Color="LightGray" />
+
+                <!-- Zaznaczona półka -->
+                <Label x:Name="SelectionLabel" Text="Kliknij półkę na planie" FontAttributes="Bold" />
+                <Label x:Name="HighlightLabel" />
+                <CollectionView x:Name="ItemsView"
+                                HeightRequest="160"
+                                SelectionMode="Single"
+                                SelectionChanged="OnItemSelected">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding ., StringFormat='{0}'}"
+                                   Padding="4"
+                                   FontSize="13" />
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
