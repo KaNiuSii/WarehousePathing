@@ -15,6 +15,6 @@ cd WarehousePathing
 ## Run
 
 ```bash
-dotnet run --project .\\Visualizer\\Visualizer.csproj
+dotnet run --project .\Visualizer\Visualizer.csproj
 ```
 
