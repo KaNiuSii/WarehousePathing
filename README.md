@@ -18,3 +18,8 @@ cd WarehousePathing
 dotnet run --project .\Visualizer\Visualizer.csproj
 ```
 
+## Exe
+
+Download `win-x64.zip` and extract it to any folder.
+
+Run `".\win-x64\win-x64\Visualizer.exe"`.
